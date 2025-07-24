@@ -1,7 +1,7 @@
 ---
 layout: post
 title: "Devlog #1 — Getting Started"
-date: 2025-07-25
+date: 2025-07-23
 ---
 
 I’ve started working on a GPS-based crafting game using Flutter.  
