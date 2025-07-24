@@ -1,0 +1,15 @@
+---
+layout: default
+title: Devlog
+permalink: /devlog/
+---
+
+<h1 class="text-2xl font-bold">🛠 Devlog</h1>
+<p>Progress updates as we build our GPS-based games.</p>
+<ul>
+  {% for post in site.posts %}
+    <li>
+      <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
+    </li>
+  {% endfor %}
+</ul>
