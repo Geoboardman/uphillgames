@@ -10,7 +10,7 @@ Progress updates as we build our GPS-based games.
 
 ---
 
-Total posts: {{ site.posts | size }}
+There are **{{ site.posts | size }}** posts in total.
 
 {% for post in site.posts %}
 
