@@ -1,0 +1,16 @@
+---
+layout: default
+title: Devlog
+---
+
+<h1 style="text-align:center;">🛠 Devlog</h1>
+<p style="text-align:center;">Progress updates as we build our GPS-based games.</p>
+<hr>
+
+<ul>
+    {% for post in site.posts %}
+    <li>
+        <a href="{{ post.url }}">{{ post.title }}</a> — {{ post.date | date: "%B %d, %Y" }}
+    </li>
+    {% endfor %}
+</ul>
